@@ -1,1 +1,51 @@
-demonstraçao
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Projeto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>MENTORIA TI</h1>
+        <nav>
+            <a href="">Projeto</a>
+            <a href="sobre.html">Quem somos</a>
+            <a href="contato.html">Encontre-nos</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="article">
+            <img src="" alt="">
+            <text>
+                <h2>titulo 1</h2>
+                <p>descrição da publicação</p>
+            </text>
+        </div>
+        <div class="article">
+            <img src="" alt="">
+            <text>
+                <h2>titulo 2</h2>
+                <p>descrição da publicação</p>
+            </text>
+        </div>
+        <div class="article">
+            <img src="" alt="">
+            <text>
+                <h2>titulo 3</h2>
+                <p>descrição da publicação</p>
+            </text>
+        </div>
+        <div class="article">
+            <img src="" alt="">
+            <text>
+                <h2>titulo 4</h2>
+                <p>descrição da publicação</p>
+            </text>
+        </div>
+    </div>
+</body>
+</html>
