@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Cepal Agentes Libertos</h1>
+        <nav>
+            <a href="../index.html">Projeto</a>
+            <a href="./sobre.html">Quem somos</a>
+            <a href="#">Encontre-nos</a>
+        </nav>
+    </header>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Estamos ansiosos para ouvir de você. Preencha o formulário abaixo:</p>
+        <form action="processar_formulario.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+            <input type="submit" class="enviar" onclick="Enviar();"  value="Enviar">
+        </form>
+    </section>
+
+    <div class="content">
+        <div class="loc">
+            <h2>Localização</h2>
+            <p>Uninassau Graças, Bloco A</p>
+        </div>
+
+    <script src="./funcoes/form_contato.js"></script>
+      <footer>
+        <p>&copy; 2023 Cepal Agentes Libertos</p>
+    </footer>
+</body>
+
+</html>
