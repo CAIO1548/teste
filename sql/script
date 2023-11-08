@@ -1,0 +1,22 @@
+CREATE TABLE [users] (
+  [cpf] integer PRIMARY KEY,
+  [nome] nvarchar(255),
+  [sobrenome] nvarchar(255),
+  [idade] interger
+)
+GO
+
+CREATE TABLE [cadastro] (
+  [cnpj] integer PRIMARY KEY,
+  [nomempresa] nvarchar(255),
+  [localizacao] nvarchar(255)
+)
+GO
+
+CREATE TABLE [produto] (
+  [id] integer PRIMARY KEY,
+  [name] nvarchar(255),
+  [descricao] nvarchar(255)
+)
+GO
+
